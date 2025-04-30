@@ -1,0 +1,39 @@
+{
+    "entryId": "make_some_coffee",
+    "contents": [
+      {
+        "type": "glossed", 
+        "content": {
+            "glossed":"{1b}(Hibiyo)·(wys)` (riyi)·(ebř)·(kwkl)·(wpip) (rilquy)?",
+            "parse":"(Cup of joe) (wise)` (would you) (give it a) (quick little) (whip up) (real quick)?",
+            "translation":"Would you like to make us some coffee` please?"
+        },
+        "style": "parse"
+      },
+
+      {"type":"newline","style": "parse"},
+      {
+        "type": "glossed", 
+        "content":{
+            "glossed":"{2a}(No)` (noquyźŷ)(bâuet)!",
+            "parse":"(No)` (no question) (I'm on it)!",
+            "translation":"Yes` of course! (I'll do it)"
+        },
+        "style": "parse"
+      },
+
+      {"type":"newline","style": "parse"},
+
+      {
+        "type": "glossed", 
+        "content":{
+            "glossed":"{3b}(Oya)!", 
+            "parse":"[I] (owe ya)!",
+            "translation":"Thank you!"
+        },
+        "style": "parse"
+      }
+      
+    ]
+  }
+  

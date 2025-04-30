@@ -1,0 +1,44 @@
+{
+    "entryId": "make_some_coffee",
+    "contents": [
+
+      {
+        "type": "audio",
+        "content": "1b",
+        "style": "dialogue"
+      }, 
+      {
+        "type": "glossed", 
+        "content":"(Hibiyo)·(wys)` (riyi)·(yebŕ)·(kwkl)·(wpip) (rilquy)?|(Cup of joe) (wise)` (would you) (give it a) (quick little) (whip up) (real quick)?|Would you like to make us some coffee` please?",
+        "style": "parse"
+      },
+
+      {"type":"newline","style": "parse"},
+
+      {
+        "type": "audio",
+        "content": "2a",
+        "style": "dialogue"
+      }, 
+      {
+        "type": "glossed", 
+        "content":"(No)` (noquyźỹ)(bãuet)!|(No)` (no question) (I'm on it)!|Yes` of course!",
+        "style": "parse"
+      },
+
+      {"type":"newline","style": "parse"},
+
+      {
+        "type": "audio",
+        "content": "3b",
+        "style": "dialogue"
+      }, 
+      {
+        "type": "glossed", 
+        "content":"(Oya)!|[I] (owe ya)!|Thank you!",
+        "style": "parse"
+      }
+      
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "entryId": "cup_of_joe",
+  "contents": [
+    {
+      "type": "html",
+      "content": "<b>Hibiyo</b>, <i>Coffee</i>",
+      "style": "right"
+    },
+    {
+      "type": "audio",
+      "content": "1a",
+      "style": "right"
+    },
+    {
+      "type": "audio",
+      "content": "1c",
+      "style": "right"
+    }, 
+
+    {
+      "type":"newline", 
+      "style": "parse"
+    }, 
+    {
+      "type": "html", 
+      "content": "<i>lit.</i> cup of joe.",
+      "style": "text"
+    }
+  ]
+}

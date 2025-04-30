@@ -1,0 +1,12 @@
+.asterisk-separator {
+  width: 100%;
+  text-align: center;
+  color: #A79B91;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 5px auto 0px;
+  font-size: 20px;
+  line-height: 1;
+}

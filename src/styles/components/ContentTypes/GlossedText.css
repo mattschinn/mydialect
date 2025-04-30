@@ -1,0 +1,148 @@
+/* styles/components/ContentTypes/GlossedText.css */
+/* Make the wrapper display as a block to ensure line breaks */
+.glossed-inline-wrapper {
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Container styling - changed to flex column for line breaks */
+.glossed-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+/* Line styling - each line is a block element now */
+.glossed-line {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.1;
+  margin: 4px 0; /* Add vertical spacing between lines */
+}
+
+.glossed-line.dialogue {
+  margin-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.glossed-line.parse {
+  margin-bottom: 2px;
+  color: #3e435a;
+}
+
+/* Added specific style for translation line */
+.glossed-line.translation {
+  margin-top: 2px;
+  color: #3e435a;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* Segment styling */
+.string-segment {
+  display: inline-flex;
+  padding: 1px;
+  border-radius: 1px;
+  transition: background-color 0.2s;
+}
+
+.parens {
+  color: #262b41;
+}
+
+.non-parens {
+  color: #262b41;
+}
+
+.segment-highlight {
+  background-color: #eedfca;
+}
+
+/* Text styling */
+.entry-dialogue {
+  font-weight: 800 !important;
+  font-size: 32px;
+  color: #262b41;
+  display: inline-flex !important;
+}
+
+.entry-parse {
+  font-weight: 500 !important;
+  font-size: 20px;
+  color: #3e435a;
+  display: inline-flex !important;
+}
+
+/* Overrides for parentheses text */
+.string-segment.parens.entry-dialogue {
+  font-weight: 800 !important;
+  color: #262b41;
+  display: inline-flex !important;
+  line-height: 1.1;
+}
+
+.string-segment.parens.entry-parse {
+  font-weight: 500 !important;
+  color: #3e435a;
+  display: inline-flex !important;
+}
+
+/* Audio button styles */
+.glossed-audio-button {
+  display: inline-flex;
+  margin-right: 4px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+/* Divider styling - FIXED to ensure visibility */
+.glossed-divider {
+  text-align: center;
+  margin: 8px 0;
+  position: relative;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-asterisk {
+  display: inline-block;
+  font-size: 16px;
+  color: #444;
+  background-color: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.glossed-divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #aaa;
+  z-index: 0;
+}
+
+/* Mobile compatibility */
+@media (max-width: 767px) {
+  .entry-dialogue {
+    font-size: 24px;
+    display: inline !important;
+  }
+  
+  .entry-parse {
+    font-size: 16px;
+    display: inline-flex !important;
+  }
+  
+  .glossed-line {
+    margin: 2px 0; /* Reduce spacing on mobile */
+  }
+}

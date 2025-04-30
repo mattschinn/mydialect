@@ -1,0 +1,98 @@
+/* Styles for the EntryContent component */
+
+/* Base styles for all content */
+.entry-content {
+  margin: 2px 0;
+}
+
+/* Content type variations */
+.entry-content-html {
+  display: inline;
+}
+
+.entry-content-audio,
+.entry-content-dialogue,
+.entry-content-reflink {
+  display: inline-block;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+.entry-content-glossed {
+  display: inline-block !important;
+  margin: 10px 0;
+}
+
+.entry-content-newline {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+}
+
+/* Unknown content type styling */
+.unknown-content-type {
+  color: #c53030;
+  font-style: italic;
+  padding: 4px 8px;
+  background-color: #fff0f0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+/* Style variations based on the original CSS */
+.entry-left {
+  color: #262b41;
+}
+
+.entry-right {
+  /*font-family: 'Cardo', serif;*/
+  /*font-family: 'EB Garamond', serif;*/
+  color: #262b41;
+}
+
+/* Basic link styling for text content */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+/* Interactive effects */
+.entry-content-interactive {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.entry-content-interactive:hover {
+  transform: scale(1.05);
+}
+
+/* Focus styles for accessibility */
+.entry-content-interactive:focus {
+  outline: 2px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+/* Additional styling for mobile */
+@media (max-width: 767px) {
+  .entry-content-glossed {
+    margin: 6px 0;
+  }
+  
+  .entry-content-newline {
+    margin: 5px 0;
+  }
+}
+
+/* Add this to your EntryContent.css file */
+.glossed-inline-wrapper {
+  display: inline;
+}
+

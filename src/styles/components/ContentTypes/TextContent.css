@@ -1,0 +1,13 @@
+
+/* These classes match your original CSS class names */
+.entry-left {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #262b41;
+}
+
+.entry-right {
+  font-family: 'Cardo', serif;
+  color: #262b41;
+}
+
+/* You might want to add more specific styles based on your original CSS */
